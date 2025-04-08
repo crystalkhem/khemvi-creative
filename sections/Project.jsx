@@ -15,7 +15,7 @@ const Project = () => {
       
       <div className="w-full md:w-1/2 flex justify-center">
         <img 
-          src='https://i.imgur.com/2nA7FnS.gif' 
+          src='/bellaciaoscroll.gif' 
           alt="Mobile view of café landing page" 
           className="w-64 md:w-80 rounded-2xl shadow-lg"
         />
