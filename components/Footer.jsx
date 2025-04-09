@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
+
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-12 px-6 md:px-12">
@@ -20,10 +21,10 @@ const Footer = () => {
             Site
           </h4>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/services">Services</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="#home">Home</Link></li>
+            <li><Link href="#about">About</Link></li>
+            <li><Link href="#services">Services</Link></li>
+            <li><Link href="#contact">Contact</Link></li>
           </ul>
         </div>
 
@@ -33,8 +34,9 @@ const Footer = () => {
             Contact
           </h4>
           <ul className="text-sm space-y-1">
-            <li>Email: <a href="mailto:hello@khemvi.com" className="underline">hello@khemvi.com</a></li>
-            <li>Location: North Carolina</li>
+          <li>Phone Number: <a href="tel:336-259-7605" className="underline">336-259-7605</a></li>
+            <li>Email: <a href="mailto:khemvicreative@gmail.com" className="underline">khemvicreative@gmail.com</a></li>
+            <li>Location: Greensboro, North Carolina</li>
             <li>Remote-friendly</li>
           </ul>
         </div>

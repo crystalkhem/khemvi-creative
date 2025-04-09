@@ -17,8 +17,7 @@ export const CustomCode = () => {
   return (
     <section className="
     bg-cover bg-center
-    bg-[url(https://images.pexels.com/photos/4641453/pexels-photo-4641453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] 
-    py-16 px-4 md:px-8">
+    py-16 px-4 md:px-8 bg-white">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text Content */}
         <div>
@@ -32,7 +31,7 @@ export const CustomCode = () => {
           <ul className="space-y-3">
             {benefits.map((item, index) => (
               <li key={index} className="pl-8 flex items-start gap-3">
-                <CheckCircle className="text-black-600 w-5 h-5 mt-1" />
+                <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
                 <span className="text-gray-800">{item}</span>
               </li>
             ))}

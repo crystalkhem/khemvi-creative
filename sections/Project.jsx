@@ -7,7 +7,7 @@ const onest = Onest({ weight: ['700'], subsets: ['latin'] })
 
 const Project = () => {
   return (
-    <section className="py-12 px-6 ">
+    <section className="py-12 px-6 bg-white">
     <h2 className={`${onest.className} py-4 pb-8 text-center text-6xl uppercase font-semibold`}>
           VIEW OUR PAST WORK.
         </h2>
