@@ -14,13 +14,13 @@ const Contact = () => {
       <h2 className={`${onest.className} py-4 pb-1 text-center text-6xl uppercase font-semibold`}>
       CONTACT US.
     </h2>
-        <p className="text-gray-900 ">
+    
         <p className="text-gray-900 text-lg text-center"><span className='font-bold'>Phone Number:</span> 336-259-7605</p>
         <p className="text-gray-900 text-lg text-center mb-5"><span className='font-bold'>Email: </span> khemvicreative@gmail.com</p>
         <p className="text-gray-700 text-lg text-center">For a free consultation, a custom quote, or if you just want to say hello—
         </p>
         <p className="text-gray-700 text-lg text-center mb-4">fill out the form below and we’ll get back to you shortly!</p>
-        </p>
+        
 
         <form 
   action="https://formspree.io/f/xqapwpzw"

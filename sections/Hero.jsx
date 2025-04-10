@@ -9,11 +9,13 @@ const roboto = Roboto_Mono({ subsets: ['latin'] })
 const Hero = () => {
   return (
     <section id='home' className='relative flex flex-col items-center bg justify-center h-screen bg-cover bg-center 
-    bg-[url(https://images.pexels.com/photos/7663273/pexels-photo-7663273.jpeg)]'>
+    bg-[url(/hero.webp)]'>
     <div className='absolute inset-0 bg-black/50'></div>  
     <div className='z-10 text-white'>
-    <div className={`${onest.className} text-5xl md:text-8xl`}>
-      khemvi<span className={`${playfair.className} p-3 uppercase text-5xl md:text-8xl`}>creative.</span>
+    <div className='flex items-center justify-center flex-col md:flex-row'>
+    <div className={`${onest.className} text-7xl md:text-8xl`}>
+      khemvi</div> 
+      <div className={`${playfair.className} p-3 uppercase text-6xl md:text-8xl`}>creative.</div>
       </div> 
       <div className={`${playfair.className} text-xl text-center md:pl-10 md:text-4xl uppercase text-4xl`}>
       web design & development

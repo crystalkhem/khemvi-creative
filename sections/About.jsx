@@ -7,7 +7,7 @@ const roboto = Roboto_Mono({ weight: ['400'], subsets: ['latin'] })
 const About = () => {
   return (
     <section id='about' className=" bg-cover bg-center 
-    bg-[url(https://images.pexels.com/photos/2748757/pexels-photo-2748757.jpeg)]
+    bg-[url(/about.webp)]
     min-h-screen  flex items-center px-4 md:px-8 bg-cover bg-center ">
       <div className="max-w-3xl mx-auto space-y-6">
         <h2 className={`${onest.className} text-6xl uppercase font-semibold`}>
