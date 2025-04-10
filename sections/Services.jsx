@@ -61,7 +61,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className=" bg-neutral-100 py-16 px-6 md:px-12">
+    <section id="services" className=" bg-neutral-100 py-10 px-6 md:px-12">
       <div className="max-w-6xl flex flex-col items-center mx-auto">
         <h2 className={`${onest.className} text-center text-6xl  text-black uppercase font-semibold`}>
           OUR SERVICES.
